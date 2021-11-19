@@ -1,12 +1,19 @@
 <template>
   <div class="p-4 mx-auto max-w-6xl">
-    <button href="https://app.asiacommerce.net/product/product/163027">
+    <button
+      onclick="location.href='https://app.asiacommerce.net/product/product/163027'"
+      href=""
+    >
       Web
     </button>
-    <button href="AsiaCommerce://app.asiacommerce.net/product/product/163027">
+    <button
+      onclick="location.href='AsiaCommerce://app.asiacommerce.net/product/product/163027'"
+    >
       iOS
     </button>
-    <button href="https://app.asiacommerce.net/product/product/163027">
+    <button
+      onclick="location.href='https://app.asiacommerce.net/product/product/163027'"
+    >
       Android
     </button>
   </div>
